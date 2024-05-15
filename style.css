@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&amp;display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&amp;display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-family: "Dosis", sans-serif;
+}
+
+.banner {
+  position: relative;
+  margin: 3% 2% 0 2%;
+  display: flex;
+  padding: 0 5%;
+  margin-top: 2%;
+  height: 80vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1c3cc;
+  background-image: linear-gradient(76deg,
+      rgba(193, 195, 204, 0.83) 35%,
+      rgba(193, 195, 204, 0.28) 65%),
+    url("https://mir-s3-cdn-cf.behance.net/project_modules/1400/8d2de057067171.59c7bfd0a5839.jpg");
+  background-position: 0px 0px, 50% 10%;
+  background-size: auto, cover;
+  background-attachment: scroll, fixed;
+}
+
+.brand {
+  top: 0px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 35px;
+  background-color: #5b74e3;
+  height: 110px;
+  z-index: 5;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: black;
+  cursor: pointer;
+  width: 100%;
+
+}
+.home .link{
+  padding: 10px ;
+  margin: 
+  text-align: ;
+  
+}
+.home .link:hover {
+  color: #232d87;
+  
+
+}
+
+.products {
+  color: black;
+  cursor: pointer;
+}
+
+.products:hover {
+  color: white;
+
+}
+
+.about {
+  color: black;
+  cursor: pointer;
+}
+
+.about:hover {
+  color: white;
+
+}
+
+.services {
+  color: black;
+  cursor: pointer;
+}
+
+.services:hover {
+  color: white;
+
+}
+
+.blog {
+  color: black;
+  cursor: pointer;
+}
+
+.blog:hover {
+  color: white;
+
+}
+
+.brand {
+  /* margin:%; */
+}
+
+.navigation {
+  height: 80px;
+  position: absolute;
+  margin-top: 2.5%;
+  display: flex;
+  top: 0%;
+  right: 0%;
+  left: 0%;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: auto;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.middleheadingcontainer {
+  position: absolute;
+  left: 50px;
+  top: 120px;
+}
+.middleheadingcontainer {
+  position: absolute;
+  left: 60px;
+  top: 135px;
+}
+.middleheadingitemwrapper {
+  font-size: larger;
+}
+  .middleheading {
+    text-transform: uppercase;
+    color: #0f32bc;
+    font-weight: 200px;
+    font-size: 40px;
+  }
+  .middlepara {
+    font-size: 20px;
+    color: rgba(1, 19, 12, 0.838);
+}
+.our-products{
+  background-color:;
+  color: #5b74e3;
+  display: inline;
+  padding: 700px;
+}
+.strong{
+  background-color: blue;
+  color: white;
+  padding: 10px;
+  border-color:rgb(238, 144, 189);
+  border-top-width: 5px;
+  border-style: solid;
+  letter-spacing: 3px
+}
+.shoe{
+  font-weight: 800;
+  word-spacing: 100;
+  cursor: pointer;
+  padding: 20px;
+}
+.searchbar{
+  padding:40px;
+  text-align: center;
+}
+input{
+  width: 60%;
+  height: 40px;
+  border-color:rgb(16, 1, 8);
+  border-top-width: 5px;
+  border-style: solid;
+}
+.shoee{
+  display: inline-block;
+  padding: 100px;
+  text-align: center;
+
+}
+.clothes{
+  display: inline-block;
+  padding: 100px;
+  text-align: center;
+}
+.watches{
+  display: inline-block;
+  padding: 60px;
+  text-align: center;
+}
+.Bags{
+  display: inline-block;
+  padding: 100px;
+  text-align: center;
+  top: 0%;
+  
+}
+.Caps{
+  display: inline-block;
+  padding:170px;
+  text-align: center;
+  top: 0px;
+}
+.Ball{
+  display: inline-block;
+  padding: 60px;
+  text-align: center;
+  top: 0px;
+}
+.section-upper {
+  position: relative;
+  padding: 10px 20px 100px;
+}
+.title-upper-item {
+  position: absolute;
+  top: 0px;
+}
+
+.title-left-upper {
+  position: absolute;
+  color: #000;
+  z-index: 4;
+  font-weight: 600;
+  font-size: 20px;
+  align-items: center;
+  left: 80px;
+  bottom: -63px;
+}
+.title-background {
+  text-transform: uppercase;
+  color: #c3c9e623;
+  left: 400px;
+  font-size: 8.5em;
+  font-weight: 420;
+  line-height: 10px;
+}
+.adidas{
+  margin-left:50px; 
+  display: inline;
+  
+}
